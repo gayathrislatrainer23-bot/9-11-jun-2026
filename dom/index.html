@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="intro">Introduction</h1>
+    <!-- <p id="msg">hi,Manu ?</p> -->
+    <p id="msg">hi, how are you ?</p>
+
+    <h2 class="intro">second heading</h2>
+    <p>Lorem ipsum dolor, sit amet <br>
+consectetur adipisicing elit. Nobis corporis vero suscipit? Deserunt incidunt reiciendis beatae quia aliquid, ducimus provident quas <br>
+         illo explicabo commodi dolores, id placeat laborum nobis labore!</p>
+<!-- nested -->
+         <div class="container">
+            <h1 id="title">Title</h1>
+            <div class="card">
+                <p id="para"> <u>para</u></p>
+                <img id="img" src="/files/WhatsApp Image 2026-06-22 at 9.11.45 AM.jpeg" alt="this an image" width="100">
+                <button>click</button>
+            </div>
+         </div>
+         
+    <script>
+        // id
+       let msg = document.getElementById('msg')
+       console.log(msg)
+    //    class
+        console.log(document.getElementsByClassName('intro'))
+
+// tag
+    //    console.log(document.getElementsByTagName('p'))
+
+    //    queryselector 
+   console.log(document.querySelector('#msg'))
+   console.log(document.querySelector('.intro'))
+   console.log(document.querySelector('p') )
+
+   let btn = document.querySelector('.container .card button')
+   console.log(btn)
+
+//     textcontent and inner.html
+let fruit = 'Apple'
+            document.getElementById('para').innerHTML = fruit
+       document.getElementById('title').textContent = 'Let us start'     
+
+    //    document.querySelector('.card').innerHTML = '<button>join</button>'
+      console.log( document.querySelectorAll('.intro'))
+    //   style
+msg.style.color = 'red'
+msg.style.background = 'yellow'
+
+// change attributes
+
+document.getElementById('img').src = 'https://static.vecteezy.com/system/resources/thumbnails/057/068/323/small/single-fresh-red-strawberry-on-table-green-background-food-fruit-sweet-macro-juicy-plant-image-photo.jpg'
+
+
+
+    </script>
+</body>
+</html>

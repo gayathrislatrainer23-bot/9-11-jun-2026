@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            font-size: 16px;
+        }
+        .main-container{
+            height: 100vh;
+            /* viewport height */
+            width: 100vw;
+              /* viewport width */
+        }
+        .first-unit{
+            font-size: 20px;
+            width: 200px;
+            /*1. fixed unit */
+        }
+        div{
+            font-size: 20px; 
+            /* 2. relative to parent size */
+            width: 200px; 
+            /* 4. %: relative to  parent */
+        }
+        div p{
+           font-size: 2em;
+           width: 50%;
+        }
+.rem-unit{
+    font-size: 2rem;
+}
+.box{
+    background-color: brown;
+    width: 5vw;
+}
+
+    </style>
+</head>
+<body>
+    <div class="main-container">
+
+        <p class="first-unit">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+             Doloremque doloribus atque tenetur numquam provident quibusdam, optio dicta est fuga.
+              Laudantium earum eum voluptates, ut dolorem sunt voluptatum impedit esse hic!</p>
+    
+        <div class="container">
+            <p > tenetur numquam provident quibusdam,</p>
+        </div>      
+        <p class="rem-unit">hai</p>
+        <body>
+        <div class="box">
+            <p>this is a box</p>
+        </div>
+        </body>
+    </div>
+</body>
+</html>

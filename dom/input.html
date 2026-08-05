@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="search">
+    <p id="msg"></p>
+    <script>
+let search = document.getElementById('search')
+search.addEventListener('input',(e)=>{
+// console.log(e.target.value)
+// let msg = e.target.value
+let msg = search.value
+   document.getElementById('msg').innerHTML = msg
+})
+    </script>
+</body>
+</html>

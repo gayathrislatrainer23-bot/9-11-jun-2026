@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form id="logiForm">
+        <label for="userName">Name:</label>
+        <input type="text" id="userName">
+        <label for="email">Email:</label>
+        <input type="email" id="email">
+        <button type="submit">submit</button>
+    </form>
+    <script>
+       let form = document.getElementById('logiForm')
+       form.addEventListener('submit',(e)=>{
+     e.preventDefault() // prevent refresh
+    //   console.log(e.target.elements[0].value)
+    //  alert(`${e.target.elements['userName'].value} , you submited the form`)
+              let userName =document.getElementById('userName').value
+              let email =document.getElementById('email').value
+            // //   console.log(userName)
+
+            // alert(userName + email)
+       })
+    </script>
+</body>
+</html>

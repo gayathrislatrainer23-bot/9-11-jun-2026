@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+
+<body>
+    <h1>JOB APPLICATION FORM</h1>
+    <form>
+        <!-- full name -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="enter your name here" required minlength="3" maxlength="10">
+        <br>
+        <br>
+        <!-- email -->
+        <label for="email">Email :</label>
+        <input type="email" id="email" placeholder="email id" required>
+        <br>
+        <br>
+        <!--Gender  -->
+        <p>Gender:</p>
+        <input type="radio" id="male" name='gender' value="male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name='gender' value="female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="others" name='gender' value="others">
+        <label for="others">Others</label>
+        <br>
+        <br>
+        <!-- position -->
+         <label for="position">Position</label>
+         <select name="position" id="position">
+            <option value="">select position</option>
+            <option value="fd">Front-end Developer</option>
+            <option value="bd">Back-end Developer</option>
+            <option value="ui">UI/UX Developer</option>
+         </select>
+         <br>
+        <!-- resume -->
+            <label for="resume">Resume:</label>
+             <input type="file" id="resume" accept=".pdf">
+             <!-- experience -->
+        <label for="experiance">experiance :</label>
+        <input type='number' id="experiance" placeholder="experiance id" required min="1" max="10">
+        <button type="submit">submit</button>
+
+    </form>
+    <!-- user name   userName--- -->
+    <!-- {
+    key : 'value'
+    gender : male,
+    position : 'bd'
+} -->
+    <!-- task : -->
+    <!-- check box -->
+</body>
+
+</html>
