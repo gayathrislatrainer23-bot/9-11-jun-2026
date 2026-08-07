@@ -32,7 +32,10 @@ jsx -- js xml , html like syntax
 
 export default - make the component available for import to another file
 import - it use to bring/access  a component/function/variable from another file
-         
+
+<!-- task:1
+html element in app.jsx -->
+
 rule
 1. one parent element can return
  2.  {} embed js variables
@@ -44,4 +47,49 @@ BoxModel --PascalCase
 boxModel -camelCase
 
 <!-- export and export default ?? -->
+Props
+property used to passing data from parent to child . 
+
+Props ={
+    "userName": "Manu",
+    "age": 23
+}
+const {userName, age } =Props
+
+1: WeatherInfo with Object Prop
+    Weatherdisplay - child
+     Create a component that accepts a single object as a prop
+          (example: { city: "Chennai", temp: 30 }) and displays:
+     output:
+              Current temperature in Chennai is 30°C
+
+
+ 2: User Login Status with Conditional Prop
+
+        Pass a user object as a prop 
+         (example: { name: "Manu", isLoggedIn: true }).
+
+     output:
+
+"Welcome back!" if isLoggedIn is true, otherwise show "Please login".
+
+task: hide and show
+p--> 'hai welcome'
+ishow true 
+
+
+ 3: Colors with Array Prop
+ Pass an array of colors as a prop (example: ["Red", "Blue", "green"]).
+    Display them in one line like:
+     output:
+         Primary colors are: Red, Blue, Yellow
+
+colorPrimary(){
+    <colorDisplay data1>
+}
+
+colorSecondary(){
+     <colorDisplay data2>
+}
+
 
