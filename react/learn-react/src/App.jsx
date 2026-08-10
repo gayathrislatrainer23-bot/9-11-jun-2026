@@ -3,6 +3,8 @@ import './App.css'
 import hero from './assets/hero.png'
 import BoxModel from './components/BoxModel';
 import {age} from './components/BoxModel'
+import ColorInfo from './components/colorInfo';
+import WeatherInfo from './components/WeatherInfo';
 function App() {
 let name = 'Manu';
 let age = 23
@@ -14,8 +16,10 @@ let isStudent = true;
 {/* <p>{name}</p> */}
  {/* js embaded */}
 {/* <h1 style={{color:'red',background:'#fff'}}> this is a jsx rule that inline style using  </h1> */}
-<BoxModel userName = {name} age ={age} />
+{/* <BoxModel userName = {name} age ={age} /> */}
 {/* <name /> */}
+<WeatherInfo/>
+<ColorInfo/>
 
   </div>
   )
