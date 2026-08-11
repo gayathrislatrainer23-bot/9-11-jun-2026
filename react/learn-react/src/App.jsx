@@ -4,6 +4,8 @@ import hero from './assets/hero.png'
 import BoxModel from './components/BoxModel';
 import {age} from './components/BoxModel'
 import ColorInfo from './components/colorInfo';
+import StudentList from './components/StudentsList';
+import Vegitables from './components/Vegitables';
 import WeatherInfo from './components/WeatherInfo';
 function App() {
 let name = 'Manu';
@@ -18,9 +20,10 @@ let isStudent = true;
 {/* <h1 style={{color:'red',background:'#fff'}}> this is a jsx rule that inline style using  </h1> */}
 {/* <BoxModel userName = {name} age ={age} /> */}
 {/* <name /> */}
-<WeatherInfo/>
-<ColorInfo/>
-
+{/* <WeatherInfo/>
+<ColorInfo/> */}
+{/* <StudentList /> */}
+<Vegitables />
   </div>
   )
 }

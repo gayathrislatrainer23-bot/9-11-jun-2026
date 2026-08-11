@@ -93,3 +93,15 @@ colorSecondary(){
 }
 
 
+vegetables =[
+  {
+    name: "carrot",
+    color:"orange",
+    price: 30
+  },
+  {
+   name: "potato",
+   color: "brown",
+   price: 20
+  }
+]
