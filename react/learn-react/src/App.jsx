@@ -7,10 +7,12 @@ import ColorInfo from './components/colorInfo';
 import StudentList from './components/StudentsList';
 import Vegitables from './components/Vegitables';
 import WeatherInfo from './components/WeatherInfo';
+import LoginStatus from './components/LoginStatus';
+import AgeVarification from './components/AgeVarification';
 function App() {
 let name = 'Manu';
 let age = 23
-let isStudent = true;
+let isStudent = false;
 
 
   return (
@@ -23,7 +25,16 @@ let isStudent = true;
 {/* <WeatherInfo/>
 <ColorInfo/> */}
 {/* <StudentList /> */}
-<Vegitables />
+{/* <Vegitables /> */}
+{/* <LoginStatus/> */}
+{/* {
+  isStudent ? <LoginStatus/>  :  <StudentList />
+
+}
+{
+    age == 23 && <WeatherInfo/>
+} */}
+<AgeVarification/>
   </div>
   )
 }

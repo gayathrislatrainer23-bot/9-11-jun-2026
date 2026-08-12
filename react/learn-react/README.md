@@ -72,6 +72,7 @@ const {userName, age } =Props
      output:
 
 "Welcome back!" if isLoggedIn is true, otherwise show "Please login".
+parent - element one child
 
 task: hide and show
 p--> 'hai welcome'
