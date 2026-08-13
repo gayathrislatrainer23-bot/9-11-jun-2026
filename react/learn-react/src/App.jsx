@@ -9,6 +9,7 @@ import Vegitables from './components/Vegitables';
 import WeatherInfo from './components/WeatherInfo';
 import LoginStatus from './components/LoginStatus';
 import AgeVarification from './components/AgeVarification';
+import HideAndShow from './components/HideAndShow';
 function App() {
 let name = 'Manu';
 let age = 23
@@ -34,7 +35,8 @@ let isStudent = false;
 {
     age == 23 && <WeatherInfo/>
 } */}
-<AgeVarification/>
+{/* <AgeVarification/> */}
+<HideAndShow/>
   </div>
   )
 }

@@ -106,3 +106,10 @@ vegetables =[
    price: 20
   }
 ]
+
+State : spacial memory inside comp that hold data which can change over time
+hooks: special fun:s used to state management ,life cycle metnods and  side effect
+useState : hook used to manage state.
+const [state, setState] = useState(0)
+events:action performed by user
+synthetic events : react wrap html events.
