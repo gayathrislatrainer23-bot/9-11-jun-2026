@@ -10,6 +10,9 @@ import WeatherInfo from './components/WeatherInfo';
 import LoginStatus from './components/LoginStatus';
 import AgeVarification from './components/AgeVarification';
 import HideAndShow from './components/HideAndShow';
+import Counter from './components/Counter';
+import Token from './components/Token';
+import ImageDisplay from './components/ImageDisplay';
 function App() {
 let name = 'Manu';
 let age = 23
@@ -36,7 +39,10 @@ let isStudent = false;
     age == 23 && <WeatherInfo/>
 } */}
 {/* <AgeVarification/> */}
-<HideAndShow/>
+{/* <HideAndShow/> */}
+{/* <Counter/> */}
+{/* <Token/> */}
+<ImageDisplay/>
   </div>
   )
 }
