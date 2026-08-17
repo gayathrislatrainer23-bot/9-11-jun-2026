@@ -113,3 +113,4 @@ useState : hook used to manage state.
 const [state, setState] = useState(0)
 events:action performed by user
 synthetic events : react wrap html events.
+

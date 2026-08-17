@@ -13,6 +13,7 @@ import HideAndShow from './components/HideAndShow';
 import Counter from './components/Counter';
 import Token from './components/Token';
 import ImageDisplay from './components/ImageDisplay';
+import SimpleForm from './components/SimpleForm';
 function App() {
 let name = 'Manu';
 let age = 23
@@ -42,7 +43,8 @@ let isStudent = false;
 {/* <HideAndShow/> */}
 {/* <Counter/> */}
 {/* <Token/> */}
-<ImageDisplay/>
+{/* <ImageDisplay/> */}
+<SimpleForm/>
   </div>
   )
 }
