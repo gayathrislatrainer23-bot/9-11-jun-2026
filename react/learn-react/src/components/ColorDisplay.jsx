@@ -1,6 +1,9 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 function ColorDisplay({colors}) {
+  useEffect(()=>{
+console.log('ColorDisplay showing')
+  })
   return (
     <div>
 <p>{colors[0] , colors[1]}</p>

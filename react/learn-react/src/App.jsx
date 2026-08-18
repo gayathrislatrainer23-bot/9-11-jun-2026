@@ -14,6 +14,8 @@ import Counter from './components/Counter';
 import Token from './components/Token';
 import ImageDisplay from './components/ImageDisplay';
 import SimpleForm from './components/SimpleForm';
+import SideEffect from './components/SideEffect';
+import FunctionalComponent from './components/FunctionalComponent';
 function App() {
 let name = 'Manu';
 let age = 23
@@ -44,7 +46,10 @@ let isStudent = false;
 {/* <Counter/> */}
 {/* <Token/> */}
 {/* <ImageDisplay/> */}
-<SimpleForm/>
+{/* <SimpleForm/> */}
+{/* <SideEffect/> */}
+{/* <ColorInfo/>  */}
+<FunctionalComponent/>
   </div>
   )
 }
