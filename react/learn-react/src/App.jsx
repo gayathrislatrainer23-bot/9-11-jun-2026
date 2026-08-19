@@ -50,6 +50,9 @@ let isStudent = false;
 {/* <SideEffect/> */}
 {/* <ColorInfo/>  */}
 <FunctionalComponent/>
+<>
+
+</>
   </div>
   )
 }
